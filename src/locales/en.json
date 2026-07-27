@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Portfolio",
+    "name": "Houda Barrachel",
+    "aka": "aka Houida",
+    "description": "Passionate Full Stack Developer who loves building modern and scalable web applications.",
+    "contact": "Contact Me",
+    "cv": "Download CV",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Turning every challenge into a chance to learn",
+    "p1": "I enjoy learning new things, taking on challenges and giving my best in everything I do.",
+    "p2": "Organized, determined and always eager to improve, I continuously expand my knowledge to build useful and impactful digital solutions."
+  },
+  "skills": {
+    "eyebrow": "Toolbox",
+    "title": "Skills",
+    "categories": {
+      "webDevelopment": "Web Development",
+      "databases": "Databases",
+      "cmsOffice": "CMS & Office"
+    }
+  },
+  "languages": {
+    "eyebrow": "Languages",
+    "title": "Spoken Languages"
+  },
+  "experience": {
+    "eyebrow": "Journey",
+    "title": "Experience",
+    "present": "Present"
+  },
+  "education": {
+    "eyebrow": "Learning",
+    "title": "Education"
+  },
+  "projects": {
+    "eyebrow": "Selected work",
+    "title": "Projects",
+    "code": "Code",
+    "demo": "Demo",
+    "comingSoon": "Coming soon"
+  },
+  "contact": {
+    "eyebrow": "Let's talk",
+    "title": "Get In Touch",
+    "subtitle": "Have an idea, a project, or just want to say hi? My inbox is always open.",
+    "emailMe": "Email Me"
+  },
+  "footer": {
+    "rights": "Houda Barrachel © 2026",
+    "made": "Made with React + Tailwind"
+  }
+}

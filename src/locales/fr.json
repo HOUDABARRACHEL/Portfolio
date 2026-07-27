@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "education": "Formation",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Portfolio",
+    "name": "Houda Barrachel",
+    "aka": "alias Houida",
+    "description": "Développeuse Full Stack passionnée par la création d'applications web modernes et performantes.",
+    "contact": "Me contacter",
+    "cv": "Télécharger le CV",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "eyebrow": "À propos de moi",
+    "title": "Faire de chaque défi une occasion d'apprendre",
+    "p1": "J'aime apprendre de nouvelles choses, relever des défis et donner le meilleur de moi-même dans tout ce que j'entreprends.",
+    "p2": "Organisée, déterminée et à l'écoute, je cherche constamment à évoluer et enrichir mes connaissances afin de créer des solutions utiles et innovantes."
+  },
+  "skills": {
+    "eyebrow": "Boîte à outils",
+    "title": "Compétences",
+    "categories": {
+      "webDevelopment": "Développement Web",
+      "databases": "Bases de données",
+      "cmsOffice": "CMS & Bureautique"
+    }
+  },
+  "languages": {
+    "eyebrow": "Langues",
+    "title": "Langues parlées"
+  },
+  "experience": {
+    "eyebrow": "Parcours",
+    "title": "Expérience",
+    "present": "Présent"
+  },
+  "education": {
+    "eyebrow": "Apprentissage",
+    "title": "Formation"
+  },
+  "projects": {
+    "eyebrow": "Réalisations",
+    "title": "Projets",
+    "code": "Code",
+    "demo": "Démo",
+    "comingSoon": "Bientôt disponible"
+  },
+  "contact": {
+    "eyebrow": "Discutons",
+    "title": "Contactez-moi",
+    "subtitle": "Une idée, un projet ou juste envie de dire bonjour ? Ma boîte de réception est toujours ouverte.",
+    "emailMe": "M'envoyer un email"
+  },
+  "footer": {
+    "rights": "Houda Barrachel © 2026",
+    "made": "Fait avec React + Tailwind"
+  }
+}
