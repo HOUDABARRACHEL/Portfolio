@@ -45,6 +45,11 @@
     "eyebrow": "Learning",
     "title": "Education"
   },
+  "certifications": {
+    "eyebrow": "Credentials",
+    "title": "Certifications",
+    "view": "View badge"
+  },
   "projects": {
     "eyebrow": "Selected work",
     "title": "Projects",

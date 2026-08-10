@@ -5,6 +5,7 @@ import Skills from '../components/Skills';
 import Languages from '../components/Languages';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
+import Certifications from '../components/Certifications';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -20,6 +21,7 @@ function Home() {
         <Languages />
         <Experience />
         <Education />
+        <Certifications />
         <Projects />
         <Contact />
       </main>
