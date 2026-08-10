@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { HiOutlineArrowDown } from 'react-icons/hi';
 import { StarField, Blob, GridPattern } from './Decorations';
-import profileImage from '../assets/img/mypic.png';
 
 const socials = [
   { icon: FaGithub, href: 'https://github.com/HOUDABARRACHEL', label: 'GitHub' },
@@ -114,13 +113,13 @@ export default function Hero() {
             transition={{ repeat: Infinity, duration: 6, ease: 'easeInOut' }}
             className="relative flex h-64 w-64 rotate-3 items-center justify-center rounded-[2.5rem] border-4 border-white/70 bg-dreamy-gradient-soft glass shadow-glow sm:h-72 sm:w-72"
           >
-          <div className="relative h-full w-full overflow-hidden rounded-[2.2rem] border-4 border-white/60">
-            <img
-              src={profileImage}
-              alt="Houda Barrachel"
-              className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
-            />
-          </div>    
+            <div className="flex flex-col items-center gap-3 text-center">
+              <span className="text-5xl">🌸</span>
+              <p className="px-6 font-heading text-xs font-semibold uppercase tracking-widest text-purple-soft">
+                Photo coming soon
+              </p>
+            </div>
+            {/* washi tape corner */}
             <span className="absolute -top-3 left-8 h-6 w-16 -rotate-6 rounded-sm bg-peach/80 shadow-sm" />
             <span className="absolute -bottom-3 right-8 h-6 w-16 rotate-6 rounded-sm bg-pink-pastel/80 shadow-sm" />
           </motion.div>
