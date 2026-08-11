@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { HiOutlineSun, HiOutlineMoon, HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 import { useTheme } from '../context/ThemeContext';
 
-const sections = ['home', 'about', 'skills', 'experience', 'education', 'projects', 'contact'];
+const sections = ['home', 'about', 'skills', 'experience', 'education', 'certifications', 'projects', 'contact'];
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
