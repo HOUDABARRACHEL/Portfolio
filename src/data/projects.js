@@ -8,7 +8,6 @@ export const projects = [
     },
     tech: ['Next.js', 'Spring Boot', 'PostgreSQL', 'Docker'],
     github: '#',
-    demo: '#',
     accent: 'lavender',
   },
   {
@@ -20,7 +19,6 @@ export const projects = [
     },
     tech: ['Laravel', 'React', 'MySQL'],
     github: '#',
-    demo: '#',
     accent: 'pink',
   },
   {
@@ -31,21 +29,8 @@ export const projects = [
       en: 'Mobile weather application built with Flutter.',
     },
     tech: ['Flutter', 'REST API'],
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/HOUDABARRACHEL/weathy',
     accent: 'peach',
-  },
-  {
-    id: 'project-4',
-    title: 'Fleet Tracker',
-    description: {
-      fr: "Application de suivi automobile en temps réel.",
-      en: 'Real-time automobile tracking application.',
-    },
-    tech: ['Flutter', 'Firebase'],
-    github: '#',
-    demo: '#',
-    accent: 'lavender',
   },
   {
     id: 'project-5',
@@ -55,20 +40,7 @@ export const projects = [
       en: 'Online store built for ArtiWeb.',
     },
     tech: ['Laravel', 'Bootstrap', 'JavaScript'],
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/HOUDABARRACHEL/E-commerce',
     accent: 'pink',
-  },
-  {
-    id: 'project-6',
-    title: 'Portfolio v1',
-    description: {
-      fr: 'Une première version de ce portfolio personnel.',
-      en: 'An earlier version of this personal portfolio.',
-    },
-    tech: ['React', 'Tailwind CSS'],
-    github: '#',
-    demo: '#',
-    accent: 'peach',
   },
 ];

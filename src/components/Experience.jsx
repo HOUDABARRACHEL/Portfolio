@@ -41,15 +41,39 @@ export default function Experience() {
                 />
 
                 <div className="flex items-center gap-3">
-                  <a
-                    href={exp.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`${exp.company} website`}
-                    className="grid h-12 w-12 shrink-0 place-items-center overflow-hidden rounded-2xl bg-white shadow-soft transition-transform hover:scale-110"
-                  >
-                    <img src={exp.logo} alt={`${exp.company} logo`} className="h-8 w-8 object-contain" loading="lazy" />
-                  </a>
+                  {exp.logos ? (
+                    <div className="flex items-center gap-2">
+                      {exp.logos.map((logo, idx) => {
+                        const isFiverr = logo.includes('fiverr');
+                        const isFreelancer = logo.includes('freelancer');
+                        let bgColor = 'bg-white';
+                        if (isFiverr) bgColor = 'bg-[#043812]';
+                        if (isFreelancer) bgColor = 'bg-[#0087E0]';
+                        return (
+                          <a
+                            key={idx}
+                            href={exp.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label={`${exp.company} website`}
+                            className={`grid h-12 w-12 shrink-0 place-items-center overflow-hidden rounded-full shadow-soft transition-transform hover:scale-110 ${bgColor}`}
+                          >
+                            <img src={logo} alt={`${exp.company} logo`} className="h-8 w-8 object-contain" loading="lazy" />
+                          </a>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <a
+                      href={exp.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${exp.company} website`}
+                      className="grid h-12 w-12 shrink-0 place-items-center overflow-hidden rounded-full bg-white shadow-soft transition-transform hover:scale-110"
+                    >
+                      <img src={exp.logo} alt={`${exp.company} logo`} className="h-8 w-8 object-contain" loading="lazy" />
+                    </a>
+                  )}
                   <div>
                     <h3 className="font-heading text-base font-bold text-ink dark:text-[#EDE6FF]">
                       {exp.title[lang]}
@@ -66,7 +90,7 @@ export default function Experience() {
                 </div>
 
                 <span className="font-body text-xs font-medium text-muted">
-                  {exp.period.start} — {exp.period.end === 'present' ? t('experience.present') : exp.period.end}
+                  {exp.period[lang].start} — {exp.period[lang].end === 'present' || exp.period[lang].end === 'présent' ? t('experience.present') : exp.period[lang].end}
                 </span>
 
                 <ul className={`flex flex-wrap gap-2 ${i % 2 === 0 ? 'sm:justify-end' : ''}`}>

@@ -64,7 +64,7 @@ export default function Navbar() {
           }}
           className="font-accent text-2xl text-ink dark:text-[#EDE6FF]"
         >
-          Houida <span aria-hidden>✦</span>
+          Houida
         </a>
 
         <ul className="hidden lg:flex items-center gap-1 font-heading text-sm font-medium">

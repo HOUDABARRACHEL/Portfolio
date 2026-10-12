@@ -89,7 +89,7 @@ export default function Hero() {
 
           {/* soft blobs behind the frame */}
           <Blob className="h-40 w-40 -top-6 -right-4" from="#FFC1E3" to="#CDB4FF" />
-          <Blob className="h-32 w-32 -bottom-6 -left-6" from="#FFD8B8" to="#FFC1E3" delay="1.5s" />
+          <Blob className="h-32 w-32 -bottom-6 -left-6" from="#fbcda7" to="#FFC1E3" delay="1.5s" />
 
           {/* floating stars around the frame */}
           <motion.span
@@ -111,17 +111,15 @@ export default function Hero() {
           <motion.div
             animate={{ y: [0, -14, 0] }}
             transition={{ repeat: Infinity, duration: 6, ease: 'easeInOut' }}
-            className="relative flex h-64 w-64 rotate-3 items-center justify-center rounded-[2.5rem] border-4 border-white/70 bg-dreamy-gradient-soft glass shadow-glow sm:h-72 sm:w-72"
+            className="relative flex h-64 w-64 rotate-3 items-center justify-center rounded-[2.5rem] border-4 border-white/70 bg-dreamy-gradient-soft glass shadow-glow sm:h-72 sm:w-72 overflow-hidden"
           >
-            <div className="flex flex-col items-center gap-3 text-center">
-              <img
-                src={profileImage}
-                alt="Houda Barrachel"
-                className="h-full w-full rounded-[2.2rem] object-cover"
-              />
-            </div>
-            {/* washi tape corner */}
-            <span className="absolute -top-3 left-8 h-6 w-16 -rotate-6 rounded-sm bg-peach/80 shadow-sm" />
+            <img
+              src={profileImage}
+              alt="Houda Barrachel"
+              className="h-full w-full rounded-[2.2rem] object-cover"
+            />
+            
+            <span className="absolute -top-3 left-8 h-6 w-16 -rotate-6 rounded-sm bg-peach/80" />
             <span className="absolute -bottom-3 right-8 h-6 w-16 rotate-6 rounded-sm bg-pink-pastel/80 shadow-sm" />
           </motion.div>
         </motion.div>

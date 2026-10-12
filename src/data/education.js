@@ -11,7 +11,10 @@ export const education = [
       fr: 'Licence Professionnelle — Génie Informatique',
       en: 'Professional Bachelor — Computer Engineering',
     },
-    period: '2025 — Present',
+    period: {
+      fr: 'Septembre 2025 — Septembre 2026',
+      en: 'September 2025 — September 2026',
+    },
     location: 'Fès',
   },
   {
@@ -23,7 +26,10 @@ export const education = [
       fr: 'Technicien Spécialisé — Développement Digital',
       en: 'Specialized Technician — Digital Development',
     },
-    period: '2022 — 2024',
+    period: {
+      fr: 'Septembre 2022 — Juillet 2024',
+      en: 'September 2022 — July 2024',
+    },
     location: 'Fès',
   },
   {
@@ -35,7 +41,10 @@ export const education = [
       fr: 'Baccalauréat — Sciences Physiques, Option Française',
       en: 'Baccalaureate — Physical Sciences, French Track',
     },
-    period: '2021 — 2022',
+    period: {
+      fr: 'Novembre 2021 — Juin 2022',
+      en: 'November 2021 — June 2022',
+    },
     location: 'Fès',
   },
 ];

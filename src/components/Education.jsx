@@ -55,7 +55,7 @@ export default function Education() {
                     </h3>
                     <p className="font-body text-sm text-muted">{ed.degree[lang]}</p>
                     <p className="mt-1 font-body text-xs font-medium text-purple-soft">
-                      {ed.period} · {ed.location}
+                      {ed.period[lang]} · {ed.location}
                     </p>
                   </div>
                 </div>

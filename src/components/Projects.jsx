@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { projects } from '../data/projects';
 import { Blob } from './Decorations';
 
@@ -26,7 +26,7 @@ export default function Projects() {
           <h2 className="section-heading mt-3">{t('projects.title')}</h2>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
           {projects.map((p, i) => (
             <motion.div
               key={p.id}
@@ -65,12 +65,6 @@ export default function Projects() {
                     className="flex items-center gap-1.5 rounded-full bg-ink/5 dark:bg-white/10 px-4 py-2 text-xs font-heading font-semibold text-ink dark:text-[#EDE6FF] transition-transform hover:scale-105"
                   >
                     <FaGithub size={13} /> {t('projects.code')}
-                  </a>
-                  <a
-                    href={p.demo}
-                    className="flex items-center gap-1.5 rounded-full bg-dreamy-gradient px-4 py-2 text-xs font-heading font-semibold text-white transition-transform hover:scale-105"
-                  >
-                    <FaExternalLinkAlt size={11} /> {t('projects.demo')}
                   </a>
                 </div>
               </div>
